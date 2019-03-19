@@ -1,0 +1,35 @@
+﻿{
+  "ConnectionStrings": {
+    //"DefaultConnection": "Data Source=localhost;port=3306;Initial Catalog=test11;user id=root;password=aifeng666;charset=utf8",
+    //"DefaultConnection": "Server=localhost;Port=3306;Database=Test; User=root;Password=aifeng666;"
+    "DefaultConnection": "Server=106.14.35.6;Port=3306;Database=test1; User=netgroup;Password=ictr_!@#QWE;"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+  "AppSettings": {
+    "SwaggerJsonPath": "/swagger/BaseAPI/swagger.json",
+    "SwaggerEnable": false
+  },
+  "JwtOptions": {
+    "Issuer": "SuperAwesomeTokenServer",
+    "SymmetricKeyAsBase64": "Y2F0Y2yhciUyMHdvbmclMFWfsaZlJTIwLm5ldA==",
+    "Audience": "jieshouzhe",
+    "ExpiresMinutes": 1440
+  },
+  "GlobalExceptionMessage": {
+    "EmptyResultMessage": "未找到资源",
+    "SystemExceptionMessage": "未知错误,请重试",
+    "ValidateExceptionMessage": "数据验证失败"
+  }
+}
